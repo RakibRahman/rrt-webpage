@@ -7,6 +7,11 @@ module.exports = {
         playfair: ["Playfair Display", "sans-serif"],
         mont: ["Montserrat", "sans-serif"],
       },
+      screens: {
+        sm: "320px",
+        md: "768px",
+        lg: "1024px",
+      },
     },
   },
   variants: {

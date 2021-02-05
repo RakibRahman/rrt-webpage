@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="sass/main.css" />
   </head>
   <body>
-    <header class="p-2 bg-white">
-      <nav class="cursor-pointer nav">
+    <header class="bg-white">
+      <nav class="w-auto p-10 cursor-pointer nav lg:px-80">
         <img class="ml-6" src="img/logo.svg" alt="" />
         <div class="nav__bar">
           <input
@@ -20,7 +20,7 @@
             id="nav__toggle"
           />
           <label for="nav__toggle" class="nav__checkbox-label">
-            <span class="nav__icon"
+            <span class="nav__icon lg:hidden"
               ><img
                 class="block -mr-20 cursor-pointer"
                 src="img/menu-alt-3.svg"
@@ -30,18 +30,34 @@
           <div class="nav__background">
             <div class="nav__menu">
               <ul
-                class="pb-2 pl-4 text-6xl text-white nav__menu-list bg-gradient-to-tr from-green-300 to-white"
+                class="pb-4 pl-4 text-6xl text-white nav__menu-list bg-gradient-to-tr from-green-300 to-white"
               >
                 <li><a href="#" class="nav__menu-link">Home</a></li>
-                <li><a href="#" class="nav__menu-link">News</a></li>
                 <li><a href="#" class="nav__menu-link">About</a></li>
-                <li><a href="#" class="nav__menu-link">F.A.Q</a></li>
+                <li><a href="#" class="nav__menu-link">Work</a></li>
+                <li><a href="#" class="nav__menu-link">Experience</a></li>
                 <li><a href="#" class="nav__menu-link">Contact</a></li>
               </ul>
             </div>
           </div>
         </div>
+        <div class="hidden lg:block">
+          <ul class="flex gap-4 text-4xl font-bold text-white">
+            <li><a href="#" class="nav__menu-link hover:underline">Home</a></li>
+            <li>
+              <a href="#" class="nav__menu-link hover:underline">About</a>
+            </li>
+            <li><a href="#" class="nav__menu-link hover:underline">Work</a></li>
+            <li>
+              <a href="#" class="nav__menu-link hover:underline">Experience</a>
+            </li>
+            <li>
+              <a href="#" class="nav__menu-link hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+      <div class="lg:border-b-2 border-gray-50 border-opacity-20"></div>
     </header>
   </body>
 </html>
