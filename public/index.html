@@ -6,6 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to RRT</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="sass/main.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="p-2 bg-white">
+      <nav class="cursor-pointer nav">
+        <img class="ml-6" src="img/logo.svg" alt="" />
+        <div class="nav__bar">
+          <input
+            type="checkbox"
+            name=""
+            class="nav__checkbox"
+            id="nav__toggle"
+          />
+          <label for="nav__toggle" class="nav__checkbox-label">
+            <span class="nav__icon"
+              ><img
+                class="block -mr-20 cursor-pointer"
+                src="img/menu-alt-3.svg"
+                alt=""
+            /></span>
+          </label>
+          <div class="nav__background">
+            <div class="nav__menu">
+              <ul
+                class="pb-2 pl-4 text-6xl text-white nav__menu-list bg-gradient-to-tr from-green-300 to-white"
+              >
+                <li><a href="#" class="nav__menu-link">Home</a></li>
+                <li><a href="#" class="nav__menu-link">News</a></li>
+                <li><a href="#" class="nav__menu-link">About</a></li>
+                <li><a href="#" class="nav__menu-link">F.A.Q</a></li>
+                <li><a href="#" class="nav__menu-link">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>

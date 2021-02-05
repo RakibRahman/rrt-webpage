@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; //10px = 1rem
+  box-sizing: border-box;
+
+  @media screen and (min-width: 320px) {
+    font-size: 43.75%;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 50%;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 56.25%;
+  }
+}
+@import "nav";
