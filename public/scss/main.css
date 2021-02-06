@@ -32,10 +32,9 @@ header {
   background-image: url("/public/img/main.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   header {
     height: 90vh;
   }
@@ -102,5 +101,27 @@ header {
 
 .ico:hover img {
   filter: invert(50%);
+}
+
+.sbar progress[value] {
+  appearance: none;
+  background: #eee;
+}
+
+.sbar progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.sbar progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -webkit-linear-gradient(left, #09c, #f44);
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.sbar progress::-moz-progress-bar {
+  background-color: teal;
+  border-radius: 3px;
 }
 /*# sourceMappingURL=main.css.map */
