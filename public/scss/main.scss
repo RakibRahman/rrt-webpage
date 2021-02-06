@@ -17,3 +17,13 @@ html {
   }
 }
 @import "nav";
+
+//ico
+
+.ico {
+  &:hover {
+    & img {
+      filter: invert(50%);
+    }
+  }
+}

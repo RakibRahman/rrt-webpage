@@ -4,3 +4,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ico {
+  @apply grid w-20 h-20 rounded-full hover:bg-white place-content-center;
+}
