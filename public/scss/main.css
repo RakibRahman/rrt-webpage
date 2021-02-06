@@ -4,6 +4,10 @@ html {
   box-sizing: border-box;
 }
 
+html ::selection {
+  background: turquoise;
+}
+
 @media screen and (min-width: 320px) {
   html {
     font-size: 43.75%;
