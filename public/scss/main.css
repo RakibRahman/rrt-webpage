@@ -152,9 +152,27 @@ header {
   margin: 0 0 5px;
 }
 
+.masonry-layout .masonryBlocks img {
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: transform 0.3s;
+}
+
+.masonry-layout .masonryBlocks img:hover {
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+
 @media screen and (min-width: 768px) {
   .masonry-layout {
     column-count: 2;
+    column: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .masonry-layout {
+    column-count: 3;
     column: 10px;
   }
 }

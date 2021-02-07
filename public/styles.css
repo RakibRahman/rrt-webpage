@@ -31919,6 +31919,16 @@ video {
   transition-duration: 100ms;
 }
 
+.txt-gradient {
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  --tw-gradient-from: #f9a8d4;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(249, 168, 212, 0));
+  --tw-gradient-to: #ef4444;
+  color: transparent;
+}
+
 @media (min-width: 320px){
   .sm\:container{
     width: 100%;
