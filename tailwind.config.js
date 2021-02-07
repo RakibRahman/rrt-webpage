@@ -6,6 +6,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        custom1: "#9F0A28",
+        custom2: "#D55C2B",
+        custom3: "#F6E7D3",
+        custom4: "#24B694",
+      },
       fontFamily: {
         playfair: ["Playfair Display", "sans-serif"],
         mont: ["Montserrat", "sans-serif"],
