@@ -145,4 +145,17 @@ header {
     opacity: 0;
   }
 }
+
+.masonry-layout .masonryBlocks {
+  display: inline-block;
+  width: auto;
+  margin: 0 0 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .masonry-layout {
+    column-count: 2;
+    column: 10px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

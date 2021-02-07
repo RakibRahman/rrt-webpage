@@ -97,3 +97,17 @@ html {
     }
   }
 }
+
+//masonry
+
+.masonry-layout {
+  & .masonryBlocks {
+    display: inline-block;
+    width: auto;
+    margin: 0 0 5px;
+  }
+  @media screen and (min-width: 768px) {
+    column-count: 2;
+    column: 10px;
+  }
+}

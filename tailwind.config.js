@@ -6,6 +6,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      width: {
+        "100rem": "80rem",
+      },
       colors: {
         custom1: "#9F0A28",
         custom2: "#D55C2B",
